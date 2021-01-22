@@ -8,13 +8,7 @@ The arguments will always be strings, and normal letters.
 For Haskell, body has the type of String and tail has the type of Char. For Go, body has type string and tail has type rune.
 */
 
-function correctTail(bod, tail ;
-  
-  sub = body.substr(bodylength-(tail.length)
-  
-  if sub = tail) ;
-    return true
-  }
-  else 
-    return false
+const correctTail = (body, tail) => {
+  return body[body.length - 1] === tail ? true : false;
+}
   
